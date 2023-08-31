@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#maindiv{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#maindiv>div{
+    height: 96%;
+    width: 98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/hero-cybersecurity.jpg);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+#logo{
+    height: 85%;
+    width: 18%;
+    /* background-color: aliceblue; */
+    background-image: url(../img/png-transparent-bank-logo-bank-saving-bank-pic-building-structure-bank-thumbnail-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#nav{
+    height: 80%;
+    width: 80%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav>div{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+#nav>div>a{
+    color: wheat;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+

@@ -1,0 +1,52 @@
+{
+  "accountholder": [
+    {
+      "id": 1,
+      "name": "Mani",
+      "email": "mani@123",
+      "accno": "67567889",
+      "password": "mani345",
+      "balance": 1000
+    },
+    {
+      "name": "Madhavan",
+      "email": "madhavan@123",
+      "accno": "12345678",
+      "password": "madhavan123",
+      "balance": 2000,
+      "id": 2
+    },
+    {
+      "name": "Siva",
+      "email": "siva@123",
+      "accno": "34567890",
+      "password": "siva345",
+      "balance": 5000,
+      "id": 3
+    },
+    {
+      "name": "Dinesh",
+      "email": "dinesh@890",
+      "accno": "78901234",
+      "password": "dinesh890",
+      "balance": 10000,
+      "id": 4
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Renu",
+      "email": "renu@123",
+      "phone": "8940017890",
+      "password": "renu123"
+    },
+    {
+      "name": "Punitha",
+      "email": "punitha@345",
+      "password": "punitha345",
+      "phone": "7865456789",
+      "id": 2
+    }
+  ]
+}

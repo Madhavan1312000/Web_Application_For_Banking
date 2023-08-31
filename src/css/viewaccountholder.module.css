@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#maindiv{
+    height: 518px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+#subdiv{
+    height: 518px;
+    width: 98%;
+    padding-top: 10px;
+    background-image: url("https://c0.wallpaperflare.com/preview/124/110/387/block-blockchain-business-chain.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#subdiv2{
+    height: 150px;
+    padding: 5px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid  rgb(105, 193, 223);
+}
+#subdiv2>table>tr>td{
+color:  rgb(105, 193, 223);
+/* text-shadow: 2px 2px 15px antiquewhite; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+#subdiv2>table>th>td{
+    color: antiquewhite;
+    /* text-shadow: 2px 2px 15px antiquewhite; */
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+}
